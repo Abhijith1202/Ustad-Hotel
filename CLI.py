@@ -180,7 +180,7 @@ def totalIncome():
 con = pymysql.connect(host="localhost",
 	user="root",
 	port=3306,
-	password="harlequin",
+	password="********",
 	database="UstadHotel")
 
 if(con.open):
